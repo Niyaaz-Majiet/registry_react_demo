@@ -1,0 +1,40 @@
+.page-not-found-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    align-items: center;
+    padding: 4px;
+    animation: color-change-background 5s; /* animation-name followed by duration in seconds*/ /* you could also use milliseconds (ms) or something like 2.5s */
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+}
+
+.error-text{
+    width: fit-content;
+    font-weight: bold;
+    font-size: 42px;
+    text-decoration: underline;
+    color: red;
+    text-align: center;
+}
+
+.description{
+    text-align: center;
+    padding: 4px;
+}
+
+@keyframes color-change-background {
+    0% {
+        background: white;
+    }
+    14% { background: #ffa6a6; }
+    28% { background: #fa7070; }
+    42% { background: #fa7070; }
+    56% { background: #f55353; }
+    70% { background: #ff3d3d; }
+    84% { background: #fa2525; }
+    100% { background: #ff1212; }
+}
+

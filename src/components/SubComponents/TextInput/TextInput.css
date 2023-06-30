@@ -1,0 +1,16 @@
+.input-border {
+    padding: 8px;
+    border-radius: 12px;
+    background-color: #EFEEEB;
+}
+
+.input-margin-bottom{
+    margin-bottom: 8px;
+}
+
+
+@media only screen and (max-width: 400px) {
+    .input-border {
+       margin-top: 8px;
+    }
+}

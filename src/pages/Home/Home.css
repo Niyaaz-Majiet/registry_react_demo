@@ -1,0 +1,33 @@
+.home-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    align-items: center;
+    padding: 4px;
+}
+
+.search-bar .input-wrapper label{
+    color: white;
+}
+
+.search-input{
+    width: 100%;
+    width: -webkit-fill-available;
+}
+
+.search-bar{
+    width: 80%;
+}
+
+.search-bar label{
+    padding: 4px;
+}
+
+.header-text{
+    color: white;
+    font-style: italic;
+    text-align: center;
+    padding: 8px;
+    margin: 8px;
+}

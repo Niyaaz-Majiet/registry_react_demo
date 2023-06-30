@@ -1,0 +1,35 @@
+:root {
+    --font: "Roboto", sans-serif;
+    --fontOrigin: 1rem;     /* 16px */
+    --fontSmall: 0.625em;   /* 10px */
+    --fontMedium: 0.875em;  /* 14px */
+    --fontNormal: 1em;      /* 16px */
+    --fontLarge:  1.375em;  /* 22px */
+    --fontLight: 100;
+    --fontRegular: 400;
+    --speed: 0.65s;
+}
+
+.campaign-card-container {
+    position: relative;
+    margin: 16px;
+    grid-area: card;
+    align-self: center;
+    justify-self: center;
+    overflow: hidden;
+    display: block;
+    height: fit-content;
+    font-size: var(--fontOrigin);
+    border-radius: 8px;
+    box-shadow: 0 16px 60px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    -webkit-transition: all var(--speed) ease;
+    transition: all var(--speed) ease;
+}
+
+.campaign-card-container:hover {
+    box-shadow: 0 40px 130px rgba(0, 0, 0, 0.6);
+    -webkit-transform: scale(1.1, 1.1);
+    transform: scale(1.1, 1.1);
+    border: 1px solid black;
+}
